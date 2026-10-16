@@ -281,7 +281,14 @@ def capture_from_hardware_webcam() -> Optional[bytes]:
             cap = cv2.VideoCapture(0)
         if not cap.isOpened():
             return None
-        ret, frame = cap.read()
+        # Discard initial unexposed sensor warmup frames so auto-exposure and gain settle
+        ret = False
+        frame = None
+        for _ in range(5):
+            r, f = cap.read()
+            if r and f is not None and f.size > 0:
+                ret = True
+                frame = f
         cap.release()
         if ret and frame is not None and frame.size > 0:
             success, buffer = cv2.imencode(".jpg", frame)

@@ -58,6 +58,25 @@ class DatasetReport:
     imbalance_warnings: List[str] = field(default_factory=list)
     errors: List[str] = field(default_factory=list)
 
+    @property
+    def class_count(self) -> int:
+        return self.total_classes
+
+    @property
+    def unreadable_count(self) -> int:
+        return self.unreadable_total
+
+    @property
+    def structure(self) -> str:
+        return "split" if self.splits_detected else "flat"
+
+    @property
+    def class_distribution(self) -> Dict[str, int]:
+        dist: Dict[str, int] = {}
+        for cr in self.class_reports:
+            dist[cr.class_name] = dist.get(cr.class_name, 0) + cr.image_count
+        return dist
+
 
 class DatasetInspector:
     """Scans a dataset directory and produces a structured DatasetReport."""

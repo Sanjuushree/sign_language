@@ -282,8 +282,13 @@ class TestDatasetInspector:
         report = inspector.inspect()
         assert report.dataset_found is True
         assert report.total_classes == 3
+        assert report.class_count == 3
         assert report.total_images == 9  # 3 classes × 3 images
         assert len(report.splits_detected) == 0
+        assert report.structure == "flat"
+        assert report.unreadable_count == 0
+        assert isinstance(report.class_distribution, dict)
+        assert len(report.class_distribution) == 3
 
     def test_inspect_split_dataset(self, synthetic_split_dataset: Path):
         inspector = DatasetInspector(synthetic_split_dataset)
