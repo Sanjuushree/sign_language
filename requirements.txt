@@ -1,0 +1,33 @@
+# ISL Connect — Dependencies
+# Compatible with Windows and Python 3.10+ (including Python 3.13)
+
+# Web framework & API
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+
+# Frontend
+streamlit>=1.40.0
+
+# Database
+sqlalchemy>=2.0.30
+
+# Configuration
+python-dotenv>=1.0.1
+
+# HTTP clients (frontend -> backend communication)
+requests>=2.31.0
+httpx>=0.27.0
+
+# Computer Vision & Landmark Tracking (Phase 3)
+opencv-python-headless>=4.8.0
+mediapipe<0.11
+
+# Data schemas & validation
+pydantic>=2.8.0
+
+# Machine Learning & Gesture Recognition (Phase 5)
+scikit-learn>=1.4.0
+joblib>=1.3.0
+
+# Testing
+pytest>=8.0.0

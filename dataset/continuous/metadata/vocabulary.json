@@ -1,0 +1,239 @@
+{
+  "version": "1.0.0",
+  "language": "Indian Sign Language (ISL)",
+  "total_signs": 25,
+  "categories": [
+    "Greetings",
+    "Questions",
+    "Responses",
+    "Daily Needs",
+    "Emergencies"
+  ],
+  "signs": [
+    {
+      "id": 1,
+      "gloss": "HELLO",
+      "category": "Greetings",
+      "english_translation": "Hello / Hi",
+      "hands": 1,
+      "movement_description": "Open flat palm salutes from temple moving forward and outward.",
+      "non_manual_marker": "Friendly, neutral facial expression"
+    },
+    {
+      "id": 2,
+      "gloss": "THANK-YOU",
+      "category": "Greetings",
+      "english_translation": "Thank you",
+      "hands": 1,
+      "movement_description": "Flat palm touches chin or lips and moves forward toward conversational partner.",
+      "non_manual_marker": "Slight polite head nod"
+    },
+    {
+      "id": 3,
+      "gloss": "PLEASE",
+      "category": "Greetings",
+      "english_translation": "Please",
+      "hands": 1,
+      "movement_description": "Open palm placed on center of chest rubs in a gentle circular motion.",
+      "non_manual_marker": "Polite, humble expression"
+    },
+    {
+      "id": 4,
+      "gloss": "GOODBYE",
+      "category": "Greetings",
+      "english_translation": "Goodbye / Bye",
+      "hands": 1,
+      "movement_description": "Open palm raised upright waving side to side.",
+      "non_manual_marker": "Parting smile or neutral gaze"
+    },
+    {
+      "id": 5,
+      "gloss": "NAME",
+      "category": "Greetings",
+      "english_translation": "Name",
+      "hands": 2,
+      "movement_description": "Index and middle fingers of both hands extended, tapping each other crosswise.",
+      "non_manual_marker": "Neutral gaze"
+    },
+    {
+      "id": 6,
+      "gloss": "WHAT",
+      "category": "Questions",
+      "english_translation": "What?",
+      "hands": 2,
+      "movement_description": "Both palms open facing upwards, moving horizontally side-to-side.",
+      "non_manual_marker": "Furrowed eyebrows, slight head tilt"
+    },
+    {
+      "id": 7,
+      "gloss": "WHERE",
+      "category": "Questions",
+      "english_translation": "Where?",
+      "hands": 1,
+      "movement_description": "Index finger pointing upward, shaking gently side-to-side.",
+      "non_manual_marker": "Furrowed eyebrows, questioning gaze"
+    },
+    {
+      "id": 8,
+      "gloss": "HOW",
+      "category": "Questions",
+      "english_translation": "How?",
+      "hands": 2,
+      "movement_description": "Curved hands with knuckles touching rotate outward until palms face upward.",
+      "non_manual_marker": "Furrowed eyebrows, head tilted forward"
+    },
+    {
+      "id": 9,
+      "gloss": "WHY",
+      "category": "Questions",
+      "english_translation": "Why?",
+      "hands": 1,
+      "movement_description": "Middle finger sweeps downward across chest or forehead.",
+      "non_manual_marker": "Furrowed eyebrows, head pulled back slightly"
+    },
+    {
+      "id": 10,
+      "gloss": "WHO",
+      "category": "Questions",
+      "english_translation": "Who?",
+      "hands": 1,
+      "movement_description": "Index finger circles near chin or mouth.",
+      "non_manual_marker": "Pursed lips, questioning look"
+    },
+    {
+      "id": 11,
+      "gloss": "YES",
+      "category": "Responses",
+      "english_translation": "Yes",
+      "hands": 1,
+      "movement_description": "Closed fist nods up and down at wrist, mimicking head nod.",
+      "non_manual_marker": "Affirmative head nod"
+    },
+    {
+      "id": 12,
+      "gloss": "NO",
+      "category": "Responses",
+      "english_translation": "No",
+      "hands": 1,
+      "movement_description": "Index and middle fingers snap shut against thumb firmly.",
+      "non_manual_marker": "Side-to-side head shake"
+    },
+    {
+      "id": 13,
+      "gloss": "OKAY",
+      "category": "Responses",
+      "english_translation": "Okay / Fine",
+      "hands": 1,
+      "movement_description": "Thumbs-up gesture or index-thumb circle held steady.",
+      "non_manual_marker": "Relaxed smile"
+    },
+    {
+      "id": 14,
+      "gloss": "SORRY",
+      "category": "Responses",
+      "english_translation": "Sorry",
+      "hands": 1,
+      "movement_description": "Closed fist rubs in a small circular motion over the chest.",
+      "non_manual_marker": "Apologetic, remorseful expression"
+    },
+    {
+      "id": 15,
+      "gloss": "WANT",
+      "category": "Responses",
+      "english_translation": "Want / Need",
+      "hands": 2,
+      "movement_description": "Both hands clawed with palms facing up, pulling toward the body.",
+      "non_manual_marker": "Earnest, focused gaze"
+    },
+    {
+      "id": 16,
+      "gloss": "WATER",
+      "category": "Daily Needs",
+      "english_translation": "Water",
+      "hands": 1,
+      "movement_description": "Curved hand tilted near mouth mimicking drinking from a small cup.",
+      "non_manual_marker": "Slightly parted lips"
+    },
+    {
+      "id": 17,
+      "gloss": "FOOD",
+      "category": "Daily Needs",
+      "english_translation": "Food / Eat",
+      "hands": 1,
+      "movement_description": "Fingertips pressed together tapping mouth or lips repeatedly.",
+      "non_manual_marker": "Subtle chewing motion"
+    },
+    {
+      "id": 18,
+      "gloss": "MEDICINE",
+      "category": "Daily Needs",
+      "english_translation": "Medicine",
+      "hands": 2,
+      "movement_description": "Middle finger rotates on open palm or mimics placing pill in mouth.",
+      "non_manual_marker": "Neutral expression"
+    },
+    {
+      "id": 19,
+      "gloss": "TOILET",
+      "category": "Daily Needs",
+      "english_translation": "Restroom / Washroom",
+      "hands": 1,
+      "movement_description": "Fist with thumb protruding between index and middle fingers shakes gently.",
+      "non_manual_marker": "Questioning or urgent gaze"
+    },
+    {
+      "id": 20,
+      "gloss": "TIRED",
+      "category": "Daily Needs",
+      "english_translation": "Tired / Exhausted",
+      "hands": 2,
+      "movement_description": "Both hands placed against upper chest drop downward limply.",
+      "non_manual_marker": "Drooping shoulders, weary expression"
+    },
+    {
+      "id": 21,
+      "gloss": "HELP",
+      "category": "Emergencies",
+      "english_translation": "Help / Assist",
+      "hands": 2,
+      "movement_description": "Closed dominant fist rests on flat non-dominant palm, both lifted together.",
+      "non_manual_marker": "Urgent, pleading expression"
+    },
+    {
+      "id": 22,
+      "gloss": "PAIN",
+      "category": "Emergencies",
+      "english_translation": "Pain / Hurt",
+      "hands": 2,
+      "movement_description": "Both index fingers pointing at each other twist in opposite directions.",
+      "non_manual_marker": "Grimace, furrowed brows"
+    },
+    {
+      "id": 23,
+      "gloss": "DOCTOR",
+      "category": "Emergencies",
+      "english_translation": "Doctor",
+      "hands": 2,
+      "movement_description": "Dominant index and middle fingers tap the radial artery/pulse of other wrist.",
+      "non_manual_marker": "Serious, focused expression"
+    },
+    {
+      "id": 24,
+      "gloss": "POLICE",
+      "category": "Emergencies",
+      "english_translation": "Police",
+      "hands": 1,
+      "movement_description": "C-hand or badge gesture placed against chest or shoulder.",
+      "non_manual_marker": "Alert, serious look"
+    },
+    {
+      "id": 25,
+      "gloss": "DANGER",
+      "category": "Emergencies",
+      "english_translation": "Danger / Emergency",
+      "hands": 2,
+      "movement_description": "Both open shaking hands crossed across chest in warning motion.",
+      "non_manual_marker": "Wide eyes, alarm expression"
+    }
+  ]
+}

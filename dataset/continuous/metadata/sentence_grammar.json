@@ -1,0 +1,101 @@
+{
+  "version": "1.0.0",
+  "description": "Rule-based grammar translation mappings from ISL gloss sequences to natural English sentences.",
+  "mappings": [
+    {
+      "gloss_sequence": ["HELLO"],
+      "english_translation": "Hello!",
+      "intent": "greeting"
+    },
+    {
+      "gloss_sequence": ["GOODBYE"],
+      "english_translation": "Goodbye, see you later.",
+      "intent": "farewell"
+    },
+    {
+      "gloss_sequence": ["THANK-YOU"],
+      "english_translation": "Thank you very much.",
+      "intent": "courtesy"
+    },
+    {
+      "gloss_sequence": ["PLEASE"],
+      "english_translation": "Please.",
+      "intent": "courtesy"
+    },
+    {
+      "gloss_sequence": ["SORRY"],
+      "english_translation": "I am sorry.",
+      "intent": "apology"
+    },
+    {
+      "gloss_sequence": ["YOU", "HOW"],
+      "english_translation": "How are you?",
+      "intent": "inquiry"
+    },
+    {
+      "gloss_sequence": ["YOU", "NAME", "WHAT"],
+      "english_translation": "What is your name?",
+      "intent": "inquiry"
+    },
+    {
+      "gloss_sequence": ["NAME", "WHAT"],
+      "english_translation": "What is your name?",
+      "intent": "inquiry"
+    },
+    {
+      "gloss_sequence": ["WATER", "WANT"],
+      "english_translation": "I want water.",
+      "intent": "request"
+    },
+    {
+      "gloss_sequence": ["WANT", "WATER"],
+      "english_translation": "I would like some water, please.",
+      "intent": "request"
+    },
+    {
+      "gloss_sequence": ["FOOD", "WANT"],
+      "english_translation": "I need food.",
+      "intent": "request"
+    },
+    {
+      "gloss_sequence": ["MEDICINE", "WANT"],
+      "english_translation": "I need my medicine.",
+      "intent": "medical_need"
+    },
+    {
+      "gloss_sequence": ["TOILET", "WHERE"],
+      "english_translation": "Where is the restroom?",
+      "intent": "navigation"
+    },
+    {
+      "gloss_sequence": ["HELP", "PLEASE"],
+      "english_translation": "Please help me.",
+      "intent": "urgent_request"
+    },
+    {
+      "gloss_sequence": ["PAIN", "WHERE"],
+      "english_translation": "Where does it hurt?",
+      "intent": "medical_inquiry"
+    },
+    {
+      "gloss_sequence": ["DOCTOR", "WANT"],
+      "english_translation": "I need to see a doctor.",
+      "intent": "medical_urgent"
+    },
+    {
+      "gloss_sequence": ["POLICE", "WANT"],
+      "english_translation": "Please call the police.",
+      "intent": "emergency"
+    },
+    {
+      "gloss_sequence": ["DANGER", "HELP"],
+      "english_translation": "Emergency! I need help immediately.",
+      "intent": "emergency"
+    },
+    {
+      "gloss_sequence": ["TIRED", "WANT", "SLEEP"],
+      "english_translation": "I am feeling very tired.",
+      "intent": "physical_state"
+    }
+  ]
+}

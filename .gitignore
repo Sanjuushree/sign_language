@@ -1,0 +1,78 @@
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+*.env.local
+*.env.*.local
+
+# ── Database files ────────────────────────────────────────────────────────────
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+!database/.gitkeep
+
+# ── Trained model files ───────────────────────────────────────────────────────
+models/*.pkl
+models/*.h5
+models/*.pt
+models/*.pth
+models/*.onnx
+# Explicitly keep runtime model weights & metadata (under GitHub size limits)
+!models/isl_classifier.joblib
+!models/hand_landmarker.task
+!models/*.json
+!models/*.md
+!models/.gitkeep
+
+# ── Raw & Processed Image Dataset (Large images excluded) ─────────────────────
+dataset/raw/*
+dataset/processed/*
+!dataset/raw/.gitkeep
+!dataset/processed/.gitkeep
+
+# ── Continuous Video Dataset (Heavy media files excluded; folder structure kept) ─
+dataset/continuous/videos_raw/**/*.mp4
+dataset/continuous/videos_raw/**/*.avi
+dataset/continuous/videos_raw/**/*.mov
+dataset/continuous/videos_raw/**/*.mkv
+dataset/continuous/videos_raw/**/*.webm
+dataset/continuous/sequences_processed/**/*.npz
+dataset/continuous/sequences_processed/**/*.npy
+dataset/continuous/sequences_processed/**/*.pkl
+dataset/continuous/landmark_cache/**/*.npz
+dataset/continuous/landmark_cache/**/*.npy
+
+# ── IDE / OS ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Build / dist ──────────────────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+
+# ── Pytest ────────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
